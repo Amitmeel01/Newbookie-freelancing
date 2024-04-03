@@ -23,6 +23,11 @@
   display: none;
 }
 
+::selection {
+    color: none;
+    background: none;
+}
+
  /*navbar*/
 nav{
   background-color: var(--bg-color);
