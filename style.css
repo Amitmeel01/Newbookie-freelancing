@@ -1,0 +1,522 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins" sans-serif;
+  overflow-x: hidden;
+}
+
+/* for background color in complete page*/
+:root {
+  --bg-color: #4A4A4A;
+  --second-bg-color: #F08411;
+  --text-color: #000000;
+  --second-text:#ffffff;
+  /* --main-color: #e05915; */
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+ /*navbar*/
+nav{
+  background-color: var(--bg-color);
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  z-index: 101;
+  
+}
+ .navbar .logo img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+ }
+.navbar .home{
+  display: flex;
+  gap: 4rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+}
+.home a{
+  text-decoration: none;
+  color: var(--second-text);
+  transition: 1s;
+}
+.home a:hover{
+  /* color: var(--second-bg-color); */
+  color: #25D366;
+}
+
+/*home*/
+
+#home .image img{
+         width: 100vw;
+         height: 50rem;
+         z-index: -1;
+         aspect-ratio: 3/2;
+         object-fit: contain;
+         filter: blur(5px);
+}
+
+.get{
+      position: relative;
+      bottom: 30rem;
+      left: 55%;
+      font-size: 2rem;
+      padding: 1rem;
+      border: 2px solid black;
+      background: transparent;
+      color: var(--second-text);
+      font-weight: 800;
+      cursor: pointer;
+      z-index: 100;
+      transition: 0.3s;
+}
+.get:hover{
+  transform: scale(1.1);
+}
+
+.welcome{
+  background: var(--second-text);
+  margin-bottom: 5rem;
+  
+}
+.para{
+  /* margin-left: 10rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+ 
+}
+.para h1{
+  color: var(--second-bg-color);
+}
+.para button{
+  font-size: 1.2rem;
+  border: 1px solid var(--text-color);
+  padding: 1rem;
+  cursor: pointer;
+  
+}
+
+.bar{
+  display: none;
+  font-size: 2rem;
+  color: var(--second-text);
+  cursor: pointer;
+}
+.bar:hover{
+  transform: scale(1.1);
+}
+
+/*about section*/
+
+#about{
+  background: var(--bg-color);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  padding: 2rem 0 3rem 0;
+  z-index: -1;
+}
+#about h1,
+#about h3{
+  color: var(--second-text);
+  text-align: center;
+}
+#about span{
+  color: var(--second-bg-color);
+  font-size: 1.3rem;
+}
+
+/*steps*/
+
+#steps{
+  background: var(--second-bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 5rem 0 5rem 0;
+  /* z-index: -1; */
+  
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 5rem 0 5rem 0;
+  cursor: pointer;
+ 
+}
+
+.item1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px solid #000; */
+  /* transform: scale(1.1); */
+  padding: 1rem;
+  width: 15rem;
+  overflow: hidden;
+  box-shadow: 2px 6px 10px #000, 2px 6px 10px #000;
+  height: 22rem;
+  transition: 0.4s;
+  padding: 0rem 1rem 1rem 1rem;
+  
+}
+.item1:hover{
+  transform: scale(1.1);
+}
+
+.item1 h2{
+  /* white-space: nowrap; */
+  font-size: 1.3rem;
+  text-align: center;
+}
+.item1 h4{
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.item1 img{
+   width: 16rem;
+   height: 7rem;
+   padding-top: 0;
+   /* padding-top: 1rem; */
+  
+}
+.item1 a button{
+  text-decoration: none;
+  box-shadow: 15px 10px 30px #fff, 5px 15px 20px #fff;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.proces{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 1rem; */
+  background: var(--bg-color);
+  padding: 2rem 0 2rem 0;
+  color: var(--second-text);
+}
+.proces a button{
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0), 0px 1px 3px rgba(0, 0, 0, 0.799);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: var(--text-color);
+  color: #25D366;
+  transition: 0.3s;
+  
+}
+.proces a button:hover{
+    transform: scale(1.1);
+}
+
+/*whatsapp*/
+
+#whatsapp{
+  padding: 5rem 0 5rem 0;
+  background: var(--second-text);
+  color:var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+
+}
+#whatsapp .item1 h3{
+ text-align: center;
+}
+#whatsapp .item1 h2{
+  color: var(--second-bg-color);
+  font-weight: bold;
+  font-size: 1.5;
+}
+#whatsapp  h1{
+  font-size: 3rem;
+}
+#whatsapp .item1 button{
+  color: var(--second-bg-color);
+}
+#whatsapp .item1{
+  height: 15rem;
+}
+#whatsapp .item1{
+  height: 24rem;
+  display: flex;
+  gap: 2rem;
+}
+
+
+/*terms*/
+
+.terms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 0 5rem 0;
+  z-index: -1;
+}
+
+.terms a button{
+  text-decoration: none;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0), 0px 1px 3px rgba(0, 0, 0, 0.799);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background: var(--text-color);
+  background-color: #25D366;
+  transition: 0.5s;
+  color: var(--second-text);
+}
+.terms a button:hover{
+  transform: scale(1.1);
+}
+.term{
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding: 4rem 0 2rem 4rem;
+}
+
+.term p{
+  font-size: 1.4rem;
+}
+
+/*footer*/
+
+footer{
+  background: var(--bg-color);
+  padding: 2rem 0 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--second-text);
+  display: flex;
+  justify-content: space-around;
+}
+
+h1,
+h2{
+  text-align: center;
+}
+footer i{
+  font-size: 2.5rem;
+  color: var(--second-bg-color);
+}
+
+
+
+
+
+/*sidebar*/
+
+.sidebar {
+  height: 100vh;
+  width: 25rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 20px;
+  display: none;
+  /* padding-bottom: 2rem; */
+  /* margin-top: 5rem; */
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: var(--second-text);
+  display: block;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  /* margin-left: 7rem; */
+  font-weight: bold;
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  background: transparent;
+  /* padding-bottom: 2rem; */
+}
+
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -0.5rem;
+  right: 35px;
+  font-size: 4rem;
+  margin-left: 50px;
+  color: var(--second-text);
+  /* font-size: 2rem; */
+}
+
+
+
+/*responsive*/
+
+@media (max-width:700px){
+   .navbar .home{
+    display: none;
+  }
+  .bar{
+    display:inline;
+    margin-right: 2rem;
+  }  
+  .bar:hover{
+    background: transparent;
+  }  
+  #mySidebar .closebtn:hover{
+    background: transparent
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    z-index: 101;
+
+  }
+  .term p{
+    font-size: 1rem;
+    text-align: center;
+  }
+ 
+  .para h1{
+    font-size: 1.4rem;
+    color: var(--second-bg-color);
+  }
+  .para h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
+
+  #about h1{
+    font-size: 1.5rem;
+  }
+  #about h3{
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
+  .proces h1{
+    font-size: 1.5rem;
+  }
+  .proces h3{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
+  .proces h4{
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+  }
+  #whatsapp h1{
+    font-size: 1.4rem;
+  }
+ 
+  #terms a button{
+    width: auto;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .term h2{
+    text-align: center;
+    font-size: 1.3rem;
+
+  }
+  .term p{
+    font-size: 0.9rem;
+    width: 100%;
+    text-wrap: wrap;
+    padding: 1rem 0 1rem 0;
+  }
+  .term{
+    padding: 2rem 0 2rem 1rem;
+    margin: 0;
+  }
+
+  footer{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  footer i{
+    font-size: 2.5rem;
+    color: var(--second-bg-color);
+  }
+
+  #home .image img{
+    width: 25rem;
+    height: 40rem;
+    z-index: -1;
+    object-fit:contain;
+    filter: blur(0px);
+    margin-bottom: -2rem;
+}
+
+.get{
+ position: relative;
+ bottom: 20rem;
+ left: 10%;
+ font-size: 1rem;
+ padding: 1rem;
+ border: 2px solid black;
+ background: transparent;
+ color: var(--second-text);
+ font-weight: bold;
+ cursor: pointer;
+ z-index: 100;
+ transition: 0.3s;
+}
+#terms button{
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+    }
+    
+
+  
+
+ 
