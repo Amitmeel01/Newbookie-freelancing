@@ -236,6 +236,10 @@ nav {
   transform: scale(1.1);
 }
 
+.small{
+  font-size: 1.3rem !important;
+}
+
 /*whatsapp*/
 
 #whatsapp {
@@ -482,6 +486,9 @@ footer i {
     padding: 2rem 0 0 0;
     position: relative;
     bottom: 10rem;
+  }
+  #home image{
+    height: 60rem;
   }
 
   .get {
