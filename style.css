@@ -63,13 +63,13 @@ nav {
 
 /*home*/
 
-#home .image img {
+#home .image video {
   width: 100vw;
   height: 50rem;
   z-index: -1;
   aspect-ratio: 3/2;
   object-fit: contain;
-  filter: blur(5px);
+  /* filter: blur(5px); */
 }
 
 .get {
@@ -477,15 +477,17 @@ footer i {
     height: 40rem;
     z-index: -1;
     object-fit: contain;
-    filter: blur(0px);
+    filter: blur(3px);
     margin-bottom: -2rem;
+    /* position: relative;
+    bottom: 35rem; */
   }
 
   .get {
     position: relative;
-    bottom: 20rem;
-    left: 10%;
-    font-size: 1rem;
+    bottom: 25rem;
+    left: 40%;
+    font-size: 1.5rem;
     padding: 1rem;
     border: 2px solid black;
     background: transparent;
@@ -501,10 +503,12 @@ footer i {
   }
   .welcome{
     position: relative;
-    bottom: 10rem;
+    bottom: 15rem;
   }
   #home{
-    height: 50rem;
+    height:55rem;
     overflow: hidden;
+    position: relative;
+    bottom: 7rem;
   }
 }
