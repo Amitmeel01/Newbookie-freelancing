@@ -23,6 +23,10 @@
   display: none;
 }
 
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+
  /*navbar*/
 nav{
   background-color: var(--bg-color);
