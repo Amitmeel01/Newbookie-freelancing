@@ -472,20 +472,21 @@ footer i {
     color: var(--second-bg-color);
   }
 
-  #home .image img {
-    width: 25rem;
-    height: 40rem;
+  #home .image video {
+    width: 100vw;
+    height: 50rem;
     z-index: -1;
+    aspect-ratio: 3/2;
     object-fit: contain;
-    filter: blur(3px);
-    margin-bottom: -2rem;
-    /* position: relative;
-    bottom: 35rem; */
+    filter: blur(0px);
+    padding: 2rem 0 0 0;
+    position: relative;
+    bottom: 10rem;
   }
 
   .get {
     position: relative;
-    bottom: 25rem;
+    bottom: 35rem;
     left: 40%;
     font-size: 1.5rem;
     padding: 1rem;
@@ -503,12 +504,14 @@ footer i {
   }
   .welcome{
     position: relative;
-    bottom: 20rem;
+    bottom: 28rem;
   }
   #home{
-    height:55rem;
+    height:50rem;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
     /* bottom: 7rem; */
+    margin-top: 0;
+    padding: 2rem 0 0 0;
   }
 }
