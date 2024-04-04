@@ -503,12 +503,12 @@ footer i {
   }
   .welcome{
     position: relative;
-    bottom: 15rem;
+    bottom: 20rem;
   }
   #home{
     height:55rem;
     overflow: hidden;
     position: relative;
-    bottom: 7rem;
+    /* bottom: 7rem; */
   }
 }
