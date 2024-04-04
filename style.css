@@ -22,7 +22,7 @@
   display: none;
 }
 
-* {
+*{
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -379,6 +379,9 @@ footer i {
 /*responsive*/
 
 @media (max-width: 700px) {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
   .navbar .home {
     display: none;
   }
@@ -495,5 +498,13 @@ footer i {
   #terms button {
     font-size: 1.2rem !important;
     padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  .welcome{
+    position: relative;
+    bottom: 10rem;
+  }
+  #home{
+    height: 50rem;
+    overflow: hidden;
   }
 }
