@@ -240,7 +240,7 @@ nav {
 }
 
 .small{
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
 }
 
 /*whatsapp*/
@@ -255,29 +255,43 @@ nav {
   align-items: center;
   z-index: -1;
 }
+#whatsapp .item1{
+  /* box-shadow: 2px 6px 10px #fff, 2px 6px 10px #fff; */
+  background: white;
+
+  
+}
 #whatsapp .item1 h3 {
   text-align: center;
+  word-spacing: 1px;
+  font-size: 0.9rem;
 }
 #whatsapp .item1 h2 {
   color: var(--second-bg-color);
   font-weight: bold;
-  font-size: 1.5;
+  font-size: 2.5 !important;
+  /* margin-top: -3rem; */
+
 }
 #whatsapp h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 #whatsapp .item1 button {
   color: var(--text-color);
-  border-color: #fff;
+  border-color: #000;
   font-weight: bold;
+  font-size: 1rem;
 }
 #whatsapp .item1 {
   height: 15rem;
 }
 #whatsapp .item1 {
-  height: 24rem;
+  height: 16rem;
   display: flex;
   gap: 2rem;
+}
+#whatsapp h3{
+  color: var(--text-color);
 }
 
 /*terms*/
@@ -525,5 +539,9 @@ footer i {
     /* bottom: 7rem; */
     margin-top: 0;
     padding: 2rem 0 0 0;
+  }
+  #whatsapp .item1{
+    height: 16rem;
+    padding: 1rem 1rem 1rem 1rem !important;
   }
 }
