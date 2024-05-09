@@ -424,6 +424,7 @@ footer i {
 
   .image img{
     width: 100vw;
+    margin-top: 3rem;
   }
   /* .welcome{
     background-color: transparent;
@@ -436,11 +437,13 @@ footer i {
  
   background: transparent;
  }
- 
+ .image .get{
+  color: yellow;
+ }
   .para h1{
   color:#fff !important;
   font-weight: bold;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
  white-space: nowrap;
  }
  .para button,
