@@ -443,8 +443,8 @@ footer i {
   .para h1{
   color:#fff !important;
   font-weight: bold;
-  font-size: 1.7rem !important;
- white-space: nowrap;
+  font-size: 1.3rem !important;
+ /* white-space: nowrap; */
  }
  .para button,
  .para h3{
