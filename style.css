@@ -423,7 +423,7 @@ footer i {
 
 
   .image img{
-    width: 150%;
+    width: 100vw;
   }
   /* .welcome{
     background-color: transparent;
@@ -431,23 +431,21 @@ footer i {
    video{
     display: none;
   }
- .image button{
-  transform: translateY(-750%);
- }
+
  .welcome{
-  transform: translateY(-250%);
+ 
   background: transparent;
  }
- .welcome h3{
-  color: #fff;
- }
- .welcome .para h1{
-  color: black;
- }
- .para button{
-  background: transparent;
-  color: orange;
+ 
+  .para h1{
+  color:#fff !important;
   font-weight: bold;
+  font-size: 2rem !important;
+ white-space: nowrap;
+ }
+ .para button,
+ .para h3{
+  display: none;
  }
 
   .navbar {
