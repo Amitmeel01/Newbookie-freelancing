@@ -40,10 +40,11 @@ nav {
   z-index: 101;
 }
 .navbar .logo img {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   padding: 0.5rem;
+  background-blend-mode: color-burn;
 }
 .navbar .home {
   display: flex;
@@ -120,6 +121,10 @@ nav {
 }
 .bar:hover {
   transform: scale(1.1);
+}
+
+.mobileImage{
+  display: none;
 }
 
 
@@ -425,6 +430,9 @@ footer i {
   .image img{
     width: 100vw;
     margin-top: 3rem;
+  }
+  .mobileImage{
+    display: block;
   }
   /* .welcome{
     background-color: transparent;
