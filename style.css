@@ -28,7 +28,7 @@
 
 /*navbar*/
 nav {
-  background-color: var(--bg-color);
+  background-color: #1E8067;
   height: auto;
   width: 100%;
   display: flex;
@@ -40,11 +40,12 @@ nav {
   z-index: 101;
 }
 .navbar .logo img {
-  width: 7rem;
-  height: 7rem;
-  border-radius: 50%;
+  width: 10rem;
+  height: 5rem;
+  margin-top: 0.4rem;
   padding: 0.5rem;
-  background-blend-mode: color-burn;
+
+  transform: scale(1.2);
 }
 .navbar .home {
   display: flex;
@@ -62,6 +63,10 @@ nav {
   color: #25d366;
 }
 
+.navbar .logo:hover{
+  
+  transition: ease-in-out;
+}
 /*home*/
 
 #home .image video {
