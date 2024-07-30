@@ -574,8 +574,8 @@ footer i {
     font-size: 1.5rem;
     padding: 1rem;
     border: 2px solid black;
-    background: transparent;
-    color: var(--second-text);
+    background: black;
+    color: white;
     font-weight: bold;
     cursor: pointer;
     z-index: 100;
