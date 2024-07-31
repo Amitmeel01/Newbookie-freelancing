@@ -565,7 +565,7 @@ footer i {
   .get {
     position: absolute;
    
-    bottom: -10rem;
+    bottom: 0rem;
    
     left: 30%;
     display: flex;
